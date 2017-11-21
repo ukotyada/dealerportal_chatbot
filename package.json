@@ -1,0 +1,26 @@
+{
+  "name": "campusassist",
+  "version": "1.0.0",
+  "description": "Student Assistant ChatBot using IBM watson",
+  "main": "messages.js",
+  "scripts": {
+    "start": "node working.js"
+  },
+  "keywords": [
+    "IBM",
+    "Watson",
+    "Twilio"
+  ],
+  "author": "Ramachandra Reddy, chandra shekar, priyanka, srinivas, phani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cloudant": "^1.8.0",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "path": "^0.12.7",
+    "twilio": "^3.3.0",
+    "watson-developer-cloud": "^2.32.1"
+  }
+}
