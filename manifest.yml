@@ -4,5 +4,5 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: msschatbot
-  host: chatbot
+  host: msschatbot
   disk_quota: 1024M
